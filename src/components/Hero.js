@@ -8,7 +8,30 @@ const Hero = () => {
   return (
     <header className="hero">
       <section className="section-center hero-center">
-        <article className="hero-info"></article>
+        <article className="hero-info">
+          <div>
+            <div className="underline"></div>
+            <h1>i'm justin</h1>
+            <h4>front end web developer</h4>
+            <Link to="/contact" className="btn">
+              contact me
+            </Link>
+            <div className="social-links">
+              {socialLinks.map(link => {
+                return (
+                  <a
+                    href={link.url}
+                    key={link.id}
+                    className="social-link"
+                    target="_blank"
+                  >
+                    {link.icon}
+                  </a>
+                )
+              })}
+            </div>
+          </div>
+        </article>
         <StaticImage
           src="../assets/images/hero.svg"
           alt="portfolio"
