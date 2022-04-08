@@ -6,6 +6,10 @@ var plugins = [{
       name: 'gatsby-plugin-react-helmet',
       plugin: require('/Users/jscorzafava/Downloads/portfolio/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
+    },{
+      name: 'default-site-plugin',
+      plugin: require('/Users/jscorzafava/Downloads/portfolio/gatsby-ssr'),
+      options: {"plugins":[]},
     }]
 /* global plugins */
 // During bootstrap, we write requires at top of this file which looks like:
