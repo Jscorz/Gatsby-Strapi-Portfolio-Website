@@ -33,11 +33,12 @@ const Hero = () => {
           </div>
         </article>
         <StaticImage
-          src="../assets/images/hero.svg"
+          src="../assets/images/hero7.svg"
           alt="portfolio"
           className="hero-img"
           placeholder="blurred"
         />
+        {/* <img src={heroImg} alt="portfolio" className="hero-img-svg" /> */}
       </section>
     </header>
   )
