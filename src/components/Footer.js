@@ -13,6 +13,10 @@ const Footer = () => {
             )
           })}
         </div>
+        <h4>
+          copyright &copy; {new Date().getFullYear()}
+          <span> Justin Scorzafava</span> all rights reserved
+        </h4>
       </div>
     </footer>
   )
