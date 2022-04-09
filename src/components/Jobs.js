@@ -25,13 +25,27 @@ const Jobs = () => {
   const {
     allStrapiJob: { nodes: jobs },
   } = data
-  const { Company, position, date, desc } = jobs[1]
+  const [value, setValue] = React.useState(0)
+  const { Company, position, date, desc } = jobs[value]
+
   return (
     <section className="section jobs">
       <Title title="experience" />
       <div className="jobs-center">
         {/* btn container */}
-        <div className="btn-container"></div>
+        <div className="btn-container">
+          {jobs.map((item, index) => {
+            return (
+              <button
+                key={index}
+                className={index === value ? "job-btn active-btn" : "job-btn"}
+                onClick={() => setValue(index)}
+              >
+                {item.Company}
+              </button>
+            )
+          })}
+        </div>
         {/* job info */}
         <article className="job-info">
           <h3>{position}</h3>
