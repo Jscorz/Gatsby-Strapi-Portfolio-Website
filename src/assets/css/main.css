@@ -971,3 +971,8 @@ Contact Page
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
+
+.font-size-higher {
+  font-size: 2.5rem !important;
+  margin-top: 2rem;
+}
