@@ -34,7 +34,7 @@ const Hero = () => {
           </div>
         </article>
         <StaticImage
-          src="../assets/images/hero22.svg"
+          src="../assets/images/hero22purple.svg"
           alt="portfolio"
           className="hero-img"
           placeholder="blurred"
