@@ -2,7 +2,7 @@ import React from "react"
 import Title from "./Title"
 import { FaAngleDoubleRight, FaLongArrowAltRight } from "react-icons/fa"
 import { graphql, useStaticQuery } from "gatsby"
-import { Link } from "gatsby"
+import resume from "../assets/Resume1.pdf"
 
 const query = graphql`
   {
@@ -61,9 +61,14 @@ const Jobs = () => {
           })}
         </article>
       </div>
-      <Link to="/about" className="btn center-btn">
-        more info
-      </Link>
+      <a
+        rel="noreferrer"
+        href={resume}
+        target="_blank"
+        className="btn center-btn"
+      >
+        view resume
+      </a>
     </section>
   )
 }
