@@ -1,12 +1,17 @@
 import React from "react"
 import { graphql } from "gatsby"
-import SEO from "../../components/Seo"
+import Seo from "../../components/Seo"
 import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import { FaGithubSquare, FaShareSquare } from "react-icons/fa"
 
 const ProjectTemplate = ({ pageContext: { title, github, url }, data }) => {
   return (
     <>
+      <Seo
+        title={data.strapiProject.title.toUpperCase()}
+        description={data.strapiProject.description}
+        image={data.strapiProject.image.publicURL}
+      />
       <main className="project-template-page">
         <h2>{title}</h2>
         <p>{data.strapiProject.description}</p>
