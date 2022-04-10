@@ -11,8 +11,8 @@ module.exports = {
     description:
       "Awesome Web Development Portfolio built with Gatsby and Strapi",
     titleTemplate: `%s | Portfolio by J Scorzafava`,
-    url: `https://jscorz-portfolio.netlify.app`,
-    twitterUsername: `@john_smilga`,
+    url: `https://www.justinscorzafava.com`,
+    twitterUsername: `@justin_scorzafava`,
     image: `/mainImg.png`,
   },
   plugins: [
