@@ -9,12 +9,13 @@ import heroImg from "../assets/images/hero9.svg"
 const Hero = () => {
   const boxRef = useRef()
   const boxRefTwo = useRef()
-
+  const boxRefThree = useRef()
   useEffect(() => {
     gsap.from(boxRef.current, {
       duration: 1,
       opacity: 0,
       y: -100,
+      ease: "bounce",
     })
   })
   useEffect(() => {
@@ -22,9 +23,17 @@ const Hero = () => {
       duration: 1,
       opacity: 0,
       x: -180,
-      delay: 1.1,
+      delay: 0.75,
     })
   })
+  // useEffect(() => {
+  //   gsap.from(boxRefThree.current, {
+  //     duration: 1,
+  //     opacity: 0,
+  //     rotationX: "10",
+  //     delay: 1.0,
+  //   })
+  // })
 
   return (
     <header className="hero">
