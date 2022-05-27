@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react"
+import React, { useRef, useLayoutEffect } from "react"
 import { gsap } from "gsap"
 import { Link } from "gatsby"
 import socialLinks from "../constants/social_links"
@@ -10,7 +10,7 @@ const Hero = () => {
   const boxRef = useRef()
   const boxRefTwo = useRef()
   const boxRefThree = useRef()
-  useEffect(() => {
+  useLayoutEffect(() => {
     gsap.from(boxRef.current, {
       duration: 1,
       opacity: 0,
@@ -18,7 +18,7 @@ const Hero = () => {
       ease: "bounce",
     })
   })
-  useEffect(() => {
+  useLayoutEffect(() => {
     gsap.from(boxRefTwo.current, {
       duration: 1,
       opacity: 0,
