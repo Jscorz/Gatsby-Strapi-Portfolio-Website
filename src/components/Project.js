@@ -18,6 +18,7 @@ const Project = ({
       <GatsbyImage
         image={getImage(image)}
         className="project-img"
+        layout="constrained"
         alt={title}
       />
       <div className="project-info">
