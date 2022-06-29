@@ -63,7 +63,7 @@ const Hero = () => {
           </div>
         </article>
         <StaticImage
-          src="../assets/images/hero22purple.svg"
+          src="../assets/images/hero21.svg"
           alt="portfolio"
           className="hero-img"
           placeholder="blurred"

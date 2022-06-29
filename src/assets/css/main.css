@@ -440,9 +440,7 @@ Hero
 .hero-info {
   background: var(--clr-primary-10);
 }
-/* .hero-img {
-  display: none;
-} */
+
 .hero-img-svg {
   display: none;
 }
@@ -462,7 +460,7 @@ Hero
     content: "";
     position: absolute;
     top: 0;
-    left: 60%;
+    left: 50%;
     right: 0;
     bottom: 0;
     background: var(--clr-white);
@@ -481,7 +479,7 @@ Hero
   .hero-img {
     display: block;
     grid-row: 1/1;
-    grid-column: 7/-1;
+    grid-column: 4/-1;
   }
   .hero-img-svg {
     width: 100%;
@@ -903,17 +901,17 @@ About Page
 @media screen and (min-width: 992px) {
   .about-center {
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    grid-template-columns: repeat(15, 1fr);
     align-items: center;
     column-gap: 4rem;
   }
   .about-img,
   .about-img-svg {
-    grid-column: 1 / span 5;
+    grid-column: 1 / span 8;
     margin-bottom: 0;
   }
   .about-text {
-    grid-column: 6 / -1;
+    grid-column: 9 / -1;
   }
 }
 /*
