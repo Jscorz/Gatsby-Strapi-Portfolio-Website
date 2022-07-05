@@ -22,10 +22,7 @@ const ProjectsPage = ({
 
 export const query = graphql`
   {
-    allStrapiProject(
-      filter: { featured: { eq: true } }
-      sort: { fields: id, order: ASC }
-    ) {
+    allStrapiProject(sort: { fields: id, order: ASC }) {
       nodes {
         description
         featured

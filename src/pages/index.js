@@ -18,7 +18,11 @@ const IndexPage = ({ data }) => {
         <Hero />
         <Services />
         <Jobs />
-        <Projects title="featured projects" showLink projects={projects} />
+        <Projects
+          title="featured projects"
+          showLink
+          projects={projects.slice(0, 3)}
+        />
       </main>
     </>
   )
