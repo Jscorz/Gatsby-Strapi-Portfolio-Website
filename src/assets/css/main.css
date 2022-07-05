@@ -755,7 +755,7 @@ Projects
     grid-column: 1 / span 8;
     /* grid-column-end: 8; */
     grid-row: 1 / 1;
-    min-height: 30rem;
+    min-height: 35rem;
     border-radius: var(--radius);
     box-shadow: var(--dark-shadow);
   }

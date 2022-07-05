@@ -21,7 +21,7 @@ const IndexPage = ({ data }) => {
         <Projects
           title="featured projects"
           showLink
-          projects={projects.slice(0, 3)}
+          projects={projects.slice(0, 3).reverse()}
         />
       </main>
     </>
