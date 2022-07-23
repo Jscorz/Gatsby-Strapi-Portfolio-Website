@@ -4,7 +4,9 @@
 
 **Link to project: [Live-demo]https://www.justinscorzafava.com**
 
-![portfolio](static/mainImg.png)
+---
+
+![screen-gif](./src//assets/images/ezgif.com-gif-maker.gif)
 
 ---
 
