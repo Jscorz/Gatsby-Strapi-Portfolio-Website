@@ -566,6 +566,7 @@ Jobs
   margin-bottom: 4rem;
 }
 .job-btn {
+  display: none;
   background: transparent;
   border-color: transparent;
   text-transform: capitalize;
@@ -582,6 +583,7 @@ Jobs
   box-shadow: 0 2px var(--clr-primary-5);
 }
 .active-btn {
+  display: none;
   color: var(--clr-primary-5);
   box-shadow: 0 2px var(--clr-primary-5);
 }
