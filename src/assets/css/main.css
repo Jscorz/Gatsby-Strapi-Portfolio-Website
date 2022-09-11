@@ -573,8 +573,8 @@ Jobs
   letter-spacing: var(--spacing);
   margin: 0.5rem;
   transition: var(--transition);
-  cursor: pointer;
-  padding: 0.25rem 0;
+  /* cursor: pointer; */
+  padding: 0.25rem 0 0.25rem 0.75rem;
   line-height: 1;
 }
 .job-btn:hover {
