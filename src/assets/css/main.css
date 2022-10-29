@@ -440,7 +440,12 @@ Hero
 .hero-info {
   background: var(--clr-primary-10);
 }
-
+.hero-img {
+  display: block;
+  height: 40vh;
+  z-index: 20;
+  margin: 0 auto;
+}
 .hero-img-svg {
   display: none;
 }
@@ -478,8 +483,8 @@ Hero
   }
   .hero-img {
     display: block;
-    grid-row: 1/1;
-    grid-column: 4/-1;
+    height: 50vh;
+    margin-right: -8rem;
   }
   .hero-img-svg {
     width: 100%;
@@ -502,8 +507,7 @@ Hero
     line-height: 1;
   }
   .hero-img {
-    margin-left: 25rem;
-    z-index: 20;
+    margin-right: -17rem;
     height: 60vh;
   }
 }
