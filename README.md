@@ -6,7 +6,7 @@
 
 ---
 
-![screen-gif](./src//assets/images/ezgif.com-gif-maker.gif)
+![screen-gif](./src//assets/images/portfolio.gif)
 
 ---
 
