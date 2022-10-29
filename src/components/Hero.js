@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import socialLinks from "../constants/social_links"
-import { StaticImage } from "gatsby-plugin-image"
+import ProgrammingGif from "../assets/images/programming.gif"
 
 const Hero = () => {
   return (
@@ -31,8 +31,8 @@ const Hero = () => {
             </div>
           </div>
         </article>
-        <StaticImage
-          src="../assets/images/hero21.svg"
+        <img
+          src={ProgrammingGif}
           alt="portfolio"
           className="hero-img"
           placeholder="blurred"
