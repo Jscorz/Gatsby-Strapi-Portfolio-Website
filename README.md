@@ -6,7 +6,7 @@
 
 ---
 
-![screen-gif](./src//assets/images/portfolio.gif)
+![screen-gif](./src//assets/images/portfolio-1.gif)
 
 ---
 
