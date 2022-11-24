@@ -31,12 +31,12 @@ const Hero = () => {
             </div>
           </div>
         </article>
-        <img
+        {/* <img
           src={ProgrammingGif}
           alt="portfolio"
           className="hero-img"
           placeholder="blurred"
-        />
+        /> */}
       </section>
     </header>
   )
